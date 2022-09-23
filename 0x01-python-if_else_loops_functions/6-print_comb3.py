@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 for i in range(10):
     for j in range(10):
-        #skip combination repetitions
+        # skip combination repetitions
         if i >= j:
             continue
         # break 1st loop if at the last combination
@@ -12,7 +12,7 @@ for i in range(10):
     # break second loop if at the last combination
     if i == max(range(10)) - 1:
         break
-#print the last combination
+# print the last combination
 print("{}{}".format(i, j))
 
 # Alternatively
